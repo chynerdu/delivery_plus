@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>961888017582-qttj4ifus0n9r9hk0qffnko1is37i2li.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.961888017582-qttj4ifus0n9r9hk0qffnko1is37i2li</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAs7ba13-AjIgM0neKeS86zHbYIjS-Dgt4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>961888017582</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.deliveryplus</string>
+	<key>PROJECT_ID</key>
+	<string>klashamobile</string>
+	<key>STORAGE_BUCKET</key>
+	<string>klashamobile.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:961888017582:ios:a80d66042776b1faf4a13f</string>
+</dict>
+</plist>

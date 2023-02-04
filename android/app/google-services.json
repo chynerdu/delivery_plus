@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "961888017582",
+    "project_id": "klashamobile",
+    "storage_bucket": "klashamobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961888017582:android:317e98e188f7c1b7f4a13f",
+        "android_client_info": {
+          "package_name": "com.example.deliveryplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961888017582-eidri00srr1ampebm4bq0ljd3p7tcqdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW4GYVW4P51JzEZ-ESL1lRJAtGCrnaSfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961888017582-eidri00srr1ampebm4bq0ljd3p7tcqdj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "961888017582-qttj4ifus0n9r9hk0qffnko1is37i2li.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.deliveryplus"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

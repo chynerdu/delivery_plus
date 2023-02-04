@@ -1,0 +1,282 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.deliveryplus"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:3:5-66
+11-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:4:5-79
+12-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:4:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:5:5-81
+13-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
+14-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-74
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+15-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:22-76
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:18.1.0] /Users/chineduuche/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:18.1.0] /Users/chineduuche/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:18.1.0] /Users/chineduuche/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+20
+21    <queries>
+21-->[com.google.android.gms:play-services-maps:18.1.0] /Users/chineduuche/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+22
+23        <!-- Needs to be explicitly declared on Android R+ -->
+24        <package android:name="com.google.android.apps.maps" />
+24-->[com.google.android.gms:play-services-maps:18.1.0] /Users/chineduuche/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+24-->[com.google.android.gms:play-services-maps:18.1.0] /Users/chineduuche/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+25    </queries>
+26
+27    <permission
+27-->[androidx.core:core:1.9.0] /Users/chineduuche/.gradle/caches/transforms-3/82546ab4767d1df2b6d62dc3a615a8f7/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+28        android:name="com.example.deliveryplus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.9.0] /Users/chineduuche/.gradle/caches/transforms-3/82546ab4767d1df2b6d62dc3a615a8f7/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.9.0] /Users/chineduuche/.gradle/caches/transforms-3/82546ab4767d1df2b6d62dc3a615a8f7/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.example.deliveryplus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.9.0] /Users/chineduuche/.gradle/caches/transforms-3/82546ab4767d1df2b6d62dc3a615a8f7/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.9.0] /Users/chineduuche/.gradle/caches/transforms-3/82546ab4767d1df2b6d62dc3a615a8f7/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+32
+33    <application
+34        android:name="android.app.Application"
+34-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:7:47-80
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.9.0] /Users/chineduuche/.gradle/caches/transforms-3/82546ab4767d1df2b6d62dc3a615a8f7/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+36        android:icon="@mipmap/ic_launcher"
+36-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:7:81-115
+37        android:label="deliveryplus" >
+37-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:7:18-46
+38        <meta-data
+38-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:10:9-123
+39            android:name="com.google.android.geo.API_KEY"
+39-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:10:20-65
+40            android:value="AIzaSyATxMtNJnsd0zmsN4gSpxMbWMxq3f-8Q6Q" />
+40-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:10:66-121
+41
+42        <activity
+42-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:12:9-22:20
+43            android:name="com.example.deliveryplus.MainActivity"
+43-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:12:19-47
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:12:138-288
+45            android:exported="true"
+45-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:12:48-71
+46            android:hardwareAccelerated="true"
+46-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:12:289-323
+47            android:launchMode="singleTop"
+47-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:12:72-102
+48            android:theme="@style/LaunchTheme"
+48-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:12:103-137
+49            android:windowSoftInputMode="adjustResize" >
+49-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:12:324-366
+50
+51            <!--
+52                 Specifies an Android theme to apply to this Activity as soon as
+53                 the Android process has started. This theme is visible to the user
+54                 while the Flutter UI initializes. After that, this theme continues
+55                 to determine the Window background behind the Flutter UI.
+56            -->
+57            <meta-data
+57-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:17:13-120
+58                android:name="io.flutter.embedding.android.NormalTheme"
+58-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:17:24-79
+59                android:resource="@style/NormalTheme" />
+59-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:17:80-117
+60
+61            <intent-filter>
+61-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:18:13-21:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:19:17-68
+62-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:19:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:20:17-76
+64-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:20:27-74
+65            </intent-filter>
+66        </activity>
+67        <!--
+68             Don't delete the meta-data below.
+69             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+70        -->
+71        <meta-data
+71-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:25:9-72
+72            android:name="flutterEmbedding"
+72-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:25:20-51
+73            android:value="2" />
+73-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:25:52-69
+74
+75        <service
+75-->[:firebase_auth] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+76            android:name="com.google.firebase.components.ComponentDiscoveryService"
+76-->[:firebase_auth] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+77            android:directBootAware="true"
+77-->[com.google.firebase:firebase-common:20.2.0] /Users/chineduuche/.gradle/caches/transforms-3/ef8423601b72496d12bca9ac87595f67/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+78            android:exported="false" >
+78-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:66:13-37
+79            <meta-data
+79-->[:firebase_auth] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+80                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+80-->[:firebase_auth] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[:firebase_auth] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+82            <meta-data
+82-->[:firebase_core] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+83                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+83-->[:firebase_core] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[:firebase_core] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+86                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+86-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+88        </service>
+89        <service
+89-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:56
+90            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+90-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-77
+91            android:enabled="true"
+91-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-35
+92            android:exported="false"
+92-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+93            android:foregroundServiceType="location" />
+93-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-53
+94
+95        <uses-library
+95-->[androidx.window:window:1.0.0-beta04] /Users/chineduuche/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+96            android:name="androidx.window.extensions"
+96-->[androidx.window:window:1.0.0-beta04] /Users/chineduuche/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+97            android:required="false" />
+97-->[androidx.window:window:1.0.0-beta04] /Users/chineduuche/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+98        <uses-library
+98-->[androidx.window:window:1.0.0-beta04] /Users/chineduuche/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+99            android:name="androidx.window.sidecar"
+99-->[androidx.window:window:1.0.0-beta04] /Users/chineduuche/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+100            android:required="false" />
+100-->[androidx.window:window:1.0.0-beta04] /Users/chineduuche/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+101
+102        <activity
+102-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+103            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+103-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+104            android:excludeFromRecents="true"
+104-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+105            android:exported="true"
+105-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+106            android:launchMode="singleTask"
+106-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+107            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+107-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+108            <intent-filter>
+108-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+109                <action android:name="android.intent.action.VIEW" />
+109-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+109-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+110
+111                <category android:name="android.intent.category.DEFAULT" />
+111-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+111-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+112                <category android:name="android.intent.category.BROWSABLE" />
+112-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+112-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+113
+114                <data
+114-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+115                    android:host="firebase.auth"
+115-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+116                    android:path="/"
+116-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+117                    android:scheme="genericidp" />
+117-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+118            </intent-filter>
+119        </activity>
+120        <activity
+120-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+121            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+121-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+122            android:excludeFromRecents="true"
+122-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+123            android:exported="true"
+123-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+124            android:launchMode="singleTask"
+124-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+125            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+125-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+126            <intent-filter>
+126-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+127                <action android:name="android.intent.action.VIEW" />
+127-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+127-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+128
+129                <category android:name="android.intent.category.DEFAULT" />
+129-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+129-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+130                <category android:name="android.intent.category.BROWSABLE" />
+130-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+130-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+131
+132                <data
+132-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+133                    android:host="firebase.auth"
+133-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+134                    android:path="/"
+134-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+135                    android:scheme="recaptcha" />
+135-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+136            </intent-filter>
+137        </activity>
+138
+139        <provider
+139-->[com.google.firebase:firebase-common:20.2.0] /Users/chineduuche/.gradle/caches/transforms-3/ef8423601b72496d12bca9ac87595f67/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+140            android:name="com.google.firebase.provider.FirebaseInitProvider"
+140-->[com.google.firebase:firebase-common:20.2.0] /Users/chineduuche/.gradle/caches/transforms-3/ef8423601b72496d12bca9ac87595f67/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+141            android:authorities="com.example.deliveryplus.firebaseinitprovider"
+141-->[com.google.firebase:firebase-common:20.2.0] /Users/chineduuche/.gradle/caches/transforms-3/ef8423601b72496d12bca9ac87595f67/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+142            android:directBootAware="true"
+142-->[com.google.firebase:firebase-common:20.2.0] /Users/chineduuche/.gradle/caches/transforms-3/ef8423601b72496d12bca9ac87595f67/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+143            android:exported="false"
+143-->[com.google.firebase:firebase-common:20.2.0] /Users/chineduuche/.gradle/caches/transforms-3/ef8423601b72496d12bca9ac87595f67/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+144            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+144-->[com.google.firebase:firebase-common:20.2.0] /Users/chineduuche/.gradle/caches/transforms-3/ef8423601b72496d12bca9ac87595f67/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+145        <uses-library
+145-->[com.google.android.gms:play-services-maps:18.1.0] /Users/chineduuche/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+146            android:name="org.apache.http.legacy"
+146-->[com.google.android.gms:play-services-maps:18.1.0] /Users/chineduuche/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+147            android:required="false" />
+147-->[com.google.android.gms:play-services-maps:18.1.0] /Users/chineduuche/.gradle/caches/transforms-3/2d343665ade3289abaa799768a8e9f4d/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+148
+149        <activity
+149-->[com.google.android.gms:play-services-base:18.1.0] /Users/chineduuche/.gradle/caches/transforms-3/ddc9a4db81e88e635fc48d64affdecc6/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+150            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+150-->[com.google.android.gms:play-services-base:18.1.0] /Users/chineduuche/.gradle/caches/transforms-3/ddc9a4db81e88e635fc48d64affdecc6/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+151            android:exported="false"
+151-->[com.google.android.gms:play-services-base:18.1.0] /Users/chineduuche/.gradle/caches/transforms-3/ddc9a4db81e88e635fc48d64affdecc6/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+152            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+152-->[com.google.android.gms:play-services-base:18.1.0] /Users/chineduuche/.gradle/caches/transforms-3/ddc9a4db81e88e635fc48d64affdecc6/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+153
+154        <meta-data
+154-->[com.google.android.gms:play-services-basement:18.1.0] /Users/chineduuche/.gradle/caches/transforms-3/83770efba2c122ac4d7bf3f6e3fc9396/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+155            android:name="com.google.android.gms.version"
+155-->[com.google.android.gms:play-services-basement:18.1.0] /Users/chineduuche/.gradle/caches/transforms-3/83770efba2c122ac4d7bf3f6e3fc9396/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+156            android:value="@integer/google_play_services_version" />
+156-->[com.google.android.gms:play-services-basement:18.1.0] /Users/chineduuche/.gradle/caches/transforms-3/83770efba2c122ac4d7bf3f6e3fc9396/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+157    </application>
+158
+159</manifest>
