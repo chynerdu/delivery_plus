@@ -1,5 +1,7 @@
 # deliveryplus
 
+A stable internet connection and a google apiKey is required in order to use the map feature
+
 A new Flutter project.
 
 ## Getting Started

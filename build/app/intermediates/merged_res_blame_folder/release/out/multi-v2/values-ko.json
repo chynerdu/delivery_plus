@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-ko/values-ko.xml",
+            "outputFile": "/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-ko/values-ko.xml",
             "map": [
                 {
                     "source": "/Users/chineduuche/.gradle/caches/transforms-3/ddc9a4db81e88e635fc48d64affdecc6/transformed/jetified-play-services-base-18.1.0/res/values-ko/values.xml",

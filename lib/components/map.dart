@@ -97,16 +97,21 @@ class _CustomMapState extends State<CustomMap> {
   }
 
   getEstimate() async {
-    var result = await queryService.getTimeEstimate(
-        widget.startLocation.latitude.toString(),
-        widget.startLocation.longitude.toString(),
-        widget.endLocation.latitude.toString(),
-        widget.endLocation.longitude.toString());
+    try {
+      var result = await queryService.getTimeEstimate(
+          widget.startLocation.latitude.toString(),
+          widget.startLocation.longitude.toString(),
+          widget.endLocation.latitude.toString(),
+          widget.endLocation.longitude.toString());
 
-    setState(() {
-      _placeDistance = (int.tryParse(result['distance'].toString())! / 100);
-      _timeEstimate = result['time'];
-    });
+      setState(() {
+        _placeDistance = (int.tryParse(result['distance'].toString())! / 1000);
+        _timeEstimate = result['time'];
+      });
+    } catch (e) {
+      customLoader.showError('Something is not right, please try again');
+      customLoader.dismissLoader();
+    }
   }
 
   saveSearch() async {
@@ -343,7 +348,7 @@ class _CustomMapState extends State<CustomMap> {
           //picker image on google map
           child: Icon(Icons.pin_drop)),
       Positioned(
-          top: 40,
+          top: 50,
           left: 10,
           child: GestureDetector(
               onTap: () {

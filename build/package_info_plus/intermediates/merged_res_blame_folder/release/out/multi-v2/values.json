@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/package_info_plus/intermediates/merged_res/release/values/values.xml",
+            "outputFile": "/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/package_info_plus/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/chineduuche/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/res/values/values.xml",
@@ -44,7 +44,7 @@
             ]
         },
         {
-            "outputFile": "/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/package_info_plus/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/package_info_plus/intermediates/merged_res/release/values/values.xml",
             "map": [
                 {
                     "source": "/Users/chineduuche/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/res/values/values.xml",

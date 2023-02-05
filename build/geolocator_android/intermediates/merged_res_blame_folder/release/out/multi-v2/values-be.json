@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-be/values-be.xml",
+            "outputFile": "/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/geolocator_android/intermediates/merged_res/release/values-be/values-be.xml",
             "map": [
                 {
                     "source": "/Users/chineduuche/.gradle/caches/transforms-3/ddc9a4db81e88e635fc48d64affdecc6/transformed/jetified-play-services-base-18.1.0/res/values-be/values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/intermediates/merged_res/release/values-be/values-be.xml",
+            "outputFile": "/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/geolocator_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-be/values-be.xml",
             "map": [
                 {
                     "source": "/Users/chineduuche/.gradle/caches/transforms-3/ddc9a4db81e88e635fc48d64affdecc6/transformed/jetified-play-services-base-18.1.0/res/values-be/values.xml",

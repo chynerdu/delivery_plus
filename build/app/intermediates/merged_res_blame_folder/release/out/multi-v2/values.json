@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/chineduuche/.gradle/caches/transforms-3/82546ab4767d1df2b6d62dc3a615a8f7/transformed/core-1.9.0/res/values/values.xml",
@@ -37,6 +37,25 @@
                         "startOffsets": "6477,7655",
                         "endColumns": "67,166",
                         "endOffsets": "6540,7817"
+                    }
+                },
+                {
+                    "source": "/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
+                    },
+                    "to": {
+                        "startLines": "138,143",
+                        "startColumns": "4,4",
+                        "startOffsets": "10030,10338",
+                        "endLines": "142,145",
+                        "endColumns": "12,12",
+                        "endOffsets": "10333,10502"
                     }
                 },
                 {
@@ -78,6 +97,23 @@
                     }
                 },
                 {
+                    "source": "/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/app/generated/res/google-services/release/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,710",
+                        "endColumns": "143,81,103,108,119,95,72",
+                        "endOffsets": "194,276,380,489,609,705,778"
+                    },
+                    "to": {
+                        "startLines": "127,131,132,133,134,135,136",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "9016,9375,9457,9561,9670,9790,9886",
+                        "endColumns": "143,81,103,108,119,95,72",
+                        "endOffsets": "9155,9452,9556,9665,9785,9881,9954"
+                    }
+                },
+                {
                     "source": "/Users/chineduuche/.gradle/caches/transforms-3/1860b854a363574f2e690af557cabc1a/transformed/lifecycle-runtime-2.3.1/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -111,42 +147,6 @@
                         "endLines": "355",
                         "endColumns": "20",
                         "endOffsets": "17601"
-                    }
-                },
-                {
-                    "source": "/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
-                    },
-                    "to": {
-                        "startLines": "138,143",
-                        "startColumns": "4,4",
-                        "startOffsets": "10030,10338",
-                        "endLines": "142,145",
-                        "endColumns": "12,12",
-                        "endOffsets": "10333,10502"
-                    }
-                },
-                {
-                    "source": "/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/app/generated/res/google-services/release/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,710",
-                        "endColumns": "143,81,103,108,119,95,72",
-                        "endOffsets": "194,276,380,489,609,705,778"
-                    },
-                    "to": {
-                        "startLines": "127,131,132,133,134,135,136",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "9016,9375,9457,9561,9670,9790,9886",
-                        "endColumns": "143,81,103,108,119,95,72",
-                        "endOffsets": "9155,9452,9556,9665,9785,9881,9954"
                     }
                 },
                 {

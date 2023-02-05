@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/google_maps_flutter_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-pl/values-pl.xml",
+            "outputFile": "/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/google_maps_flutter_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-pl/values-pl.xml",
             "map": [
                 {
                     "source": "/Users/chineduuche/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/res/values-pl/values.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/google_maps_flutter_android/intermediates/merged_res/release/values-pl/values-pl.xml",
+            "outputFile": "/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/google_maps_flutter_android/intermediates/merged_res/release/values-pl/values-pl.xml",
             "map": [
                 {
                     "source": "/Users/chineduuche/.gradle/caches/transforms-3/1a2cb69c9228e95e429c828957f3a3b6/transformed/jetified-play-services-base-18.0.1/res/values-pl/values.xml",

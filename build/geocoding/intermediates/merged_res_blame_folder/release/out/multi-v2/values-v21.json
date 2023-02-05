@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geocoding/intermediates/merged_res/release/values-v21/values-v21.xml",
+            "outputFile": "/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/geocoding/intermediates/merged_res/release/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/Users/chineduuche/.gradle/caches/transforms-3/b11c0e2c212c747cb4bcf29314469768/transformed/core-1.6.0/res/values-v21/values-v21.xml",
@@ -17,7 +17,7 @@
             ]
         },
         {
-            "outputFile": "/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geocoding/intermediates/incremental/mergeReleaseResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/geocoding/intermediates/incremental/mergeReleaseResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/Users/chineduuche/.gradle/caches/transforms-3/b11c0e2c212c747cb4bcf29314469768/transformed/core-1.6.0/res/values-v21/values-v21.xml",

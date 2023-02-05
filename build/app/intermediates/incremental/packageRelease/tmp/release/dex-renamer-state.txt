@@ -1,4 +1,4 @@
-#Sat Feb 04 20:38:48 WAT 2023
-base.0=/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+#Sun Feb 05 11:26:42 WAT 2023
+base.0=/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

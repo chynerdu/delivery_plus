@@ -1,13 +1,13 @@
 <libraries>
   <library
-      name="__local_aars__:/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
-      jars="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/app/intermediates/flutter/release/libs.jar"
-      resolved="__local_aars__:/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
+      name="__local_aars__:/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/app/intermediates/flutter/release/libs.jar:unspecified@jar"
+      jars="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/app/intermediates/flutter/release/libs.jar"
+      resolved="__local_aars__:/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/app/intermediates/flutter/release/libs.jar:unspecified"/>
   <library
-      name="/Users/chineduuche/Documents/Projects/tests/deliveryplus/android@@:shared_preferences_android::release"
-      jars="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/shared_preferences_android/.transforms/26fe5812483f7d39a45f8416b48012b5/transformed/out/jars/classes.jar"
+      name="/Users/chineduuche/Documents/Projects/tests/delivery_plus/android@@:shared_preferences_android::release"
+      jars="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/shared_preferences_android/.transforms/fe9a9bddcde60eb0c7404af4a6df0d4a/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.sharedpreferences:shared_preferences_android:unspecified"
-      folder="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/shared_preferences_android/.transforms/26fe5812483f7d39a45f8416b48012b5/transformed/out"
+      folder="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/shared_preferences_android/.transforms/fe9a9bddcde60eb0c7404af4a6df0d4a/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -17,10 +17,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/chineduuche/Documents/Projects/tests/deliveryplus/android@@:firebase_auth::release"
-      jars="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_auth/.transforms/a038fea77549810f3e1162f8c0e5e38e/transformed/out/jars/classes.jar"
+      name="/Users/chineduuche/Documents/Projects/tests/delivery_plus/android@@:firebase_auth::release"
+      jars="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/firebase_auth/.transforms/2c38904310310f194a68fa79dceeff72/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.firebase.auth:firebase_auth:unspecified"
-      folder="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_auth/.transforms/a038fea77549810f3e1162f8c0e5e38e/transformed/out"
+      folder="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/firebase_auth/.transforms/2c38904310310f194a68fa79dceeff72/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -30,10 +30,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/chineduuche/Documents/Projects/tests/deliveryplus/android@@:firebase_core::release"
-      jars="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_core/.transforms/8ade9b11053084de5d296b8fe3e110de/transformed/out/jars/classes.jar"
+      name="/Users/chineduuche/Documents/Projects/tests/delivery_plus/android@@:firebase_core::release"
+      jars="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/firebase_core/.transforms/3e957e39b4d0dc9d50b99b37c5f37271/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.firebase.core:firebase_core:unspecified"
-      folder="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_core/.transforms/8ade9b11053084de5d296b8fe3e110de/transformed/out"
+      folder="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/firebase_core/.transforms/3e957e39b4d0dc9d50b99b37c5f37271/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -43,10 +43,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/chineduuche/Documents/Projects/tests/deliveryplus/android@@:geolocator_android::release"
-      jars="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/.transforms/59bd089c0f327ca49904b2621328fe6e/transformed/out/jars/classes.jar"
+      name="/Users/chineduuche/Documents/Projects/tests/delivery_plus/android@@:geolocator_android::release"
+      jars="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/geolocator_android/.transforms/b70989dd7f6ae27c0681cb349668c657/transformed/out/jars/classes.jar"
       resolved="com.baseflow.geolocator:geolocator_android:unspecified"
-      folder="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/.transforms/59bd089c0f327ca49904b2621328fe6e/transformed/out"
+      folder="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/geolocator_android/.transforms/b70989dd7f6ae27c0681cb349668c657/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -56,10 +56,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/chineduuche/Documents/Projects/tests/deliveryplus/android@@:flutter_plugin_android_lifecycle::release"
-      jars="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/flutter_plugin_android_lifecycle/.transforms/930ab705b0b24e6d08f261b294def785/transformed/out/jars/classes.jar"
+      name="/Users/chineduuche/Documents/Projects/tests/delivery_plus/android@@:flutter_plugin_android_lifecycle::release"
+      jars="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/flutter_plugin_android_lifecycle/.transforms/96d084236f80ae8a43de096b57e0603d/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.flutter_plugin_android_lifecycle:flutter_plugin_android_lifecycle:unspecified"
-      folder="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/flutter_plugin_android_lifecycle/.transforms/930ab705b0b24e6d08f261b294def785/transformed/out"
+      folder="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/flutter_plugin_android_lifecycle/.transforms/96d084236f80ae8a43de096b57e0603d/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -69,10 +69,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/chineduuche/Documents/Projects/tests/deliveryplus/android@@:geocoding::release"
-      jars="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geocoding/.transforms/cf02a552d4a4f79b48d876d3ec8832b7/transformed/out/jars/classes.jar"
+      name="/Users/chineduuche/Documents/Projects/tests/delivery_plus/android@@:geocoding::release"
+      jars="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/geocoding/.transforms/8077b77bd817192aa704f1995a000b27/transformed/out/jars/classes.jar"
       resolved="com.baseflow.geocoding:geocoding:unspecified"
-      folder="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geocoding/.transforms/cf02a552d4a4f79b48d876d3ec8832b7/transformed/out"
+      folder="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/geocoding/.transforms/8077b77bd817192aa704f1995a000b27/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -82,10 +82,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/chineduuche/Documents/Projects/tests/deliveryplus/android@@:sqflite::release"
-      jars="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/sqflite/.transforms/2b0c7579e4b2f07ef06a7fc3fa3b1e53/transformed/out/jars/classes.jar"
+      name="/Users/chineduuche/Documents/Projects/tests/delivery_plus/android@@:sqflite::release"
+      jars="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/sqflite/.transforms/f8019ab3a868a50aac1db52e2a160c63/transformed/out/jars/classes.jar"
       resolved="com.tekartik.sqflite:sqflite:unspecified"
-      folder="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/sqflite/.transforms/2b0c7579e4b2f07ef06a7fc3fa3b1e53/transformed/out"
+      folder="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/sqflite/.transforms/f8019ab3a868a50aac1db52e2a160c63/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -95,10 +95,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/chineduuche/Documents/Projects/tests/deliveryplus/android@@:package_info_plus::release"
-      jars="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/package_info_plus/.transforms/4e21da582293d62288d8dbc2d6bf5462/transformed/out/jars/classes.jar"
+      name="/Users/chineduuche/Documents/Projects/tests/delivery_plus/android@@:package_info_plus::release"
+      jars="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/package_info_plus/.transforms/c09d0e103fe85d7cf4340d44aff1cf87/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.packageinfo:package_info_plus:unspecified"
-      folder="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/package_info_plus/.transforms/4e21da582293d62288d8dbc2d6bf5462/transformed/out"
+      folder="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/package_info_plus/.transforms/c09d0e103fe85d7cf4340d44aff1cf87/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -108,10 +108,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/chineduuche/Documents/Projects/tests/deliveryplus/android@@:google_api_headers::release"
-      jars="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/google_api_headers/.transforms/b5285b3b76e4e1f402945899eede12a4/transformed/out/jars/classes.jar"
+      name="/Users/chineduuche/Documents/Projects/tests/delivery_plus/android@@:google_api_headers::release"
+      jars="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/google_api_headers/.transforms/b36d1e1268f4e857a725a4ece1d0f709/transformed/out/jars/classes.jar"
       resolved="io.github.zeshuaro.google_api_headers:google_api_headers:unspecified"
-      folder="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/google_api_headers/.transforms/b5285b3b76e4e1f402945899eede12a4/transformed/out"
+      folder="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/google_api_headers/.transforms/b36d1e1268f4e857a725a4ece1d0f709/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -121,10 +121,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/chineduuche/Documents/Projects/tests/deliveryplus/android@@:google_maps_flutter_android::release"
-      jars="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/google_maps_flutter_android/.transforms/15d5d48f83e9ad4ce834f3d9048be9cc/transformed/out/jars/classes.jar"
+      name="/Users/chineduuche/Documents/Projects/tests/delivery_plus/android@@:google_maps_flutter_android::release"
+      jars="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/google_maps_flutter_android/.transforms/621bce63aed0edf900e10471250b3b85/transformed/out/jars/classes.jar"
       resolved="io.flutter.plugins.googlemaps:google_maps_flutter_android:unspecified"
-      folder="/Users/chineduuche/Documents/Projects/tests/deliveryplus/build/google_maps_flutter_android/.transforms/15d5d48f83e9ad4ce834f3d9048be9cc/transformed/out"
+      folder="/Users/chineduuche/Documents/Projects/tests/delivery_plus/build/google_maps_flutter_android/.transforms/621bce63aed0edf900e10471250b3b85/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

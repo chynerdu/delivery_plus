@@ -6,22 +6,22 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="20"
-8-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml
+8-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml
+9-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:3:5-66
-11-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:3:22-64
+11-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:3:5-66
+11-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:3:22-64
 12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-12-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:4:5-79
-12-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:4:22-76
+12-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:4:5-79
+12-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:4:22-76
 13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-13-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:5:5-81
-13-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:5:22-78
+13-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:5:5-81
+13-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:5:22-78
 14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-14-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
-14-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-74
+14-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/delivery_plus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
+14-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/delivery_plus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-74
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 15-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
 15-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:22-76
@@ -55,36 +55,36 @@
 32
 33    <application
 34        android:name="android.app.Application"
-34-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:7:47-80
+34-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:7:47-80
 35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 35-->[androidx.core:core:1.9.0] /Users/chineduuche/.gradle/caches/transforms-3/82546ab4767d1df2b6d62dc3a615a8f7/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 36        android:icon="@mipmap/ic_launcher"
-36-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:7:81-115
+36-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:7:81-115
 37        android:label="deliveryplus" >
-37-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:7:18-46
+37-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:7:18-46
 38        <meta-data
-38-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:10:9-123
+38-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:10:9-123
 39            android:name="com.google.android.geo.API_KEY"
-39-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:10:20-65
+39-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:10:20-65
 40            android:value="AIzaSyATxMtNJnsd0zmsN4gSpxMbWMxq3f-8Q6Q" />
-40-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:10:66-121
+40-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:10:66-121
 41
 42        <activity
-42-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:12:9-22:20
+42-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:12:9-22:20
 43            android:name="com.example.deliveryplus.MainActivity"
-43-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:12:19-47
+43-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:12:19-47
 44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-44-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:12:138-288
+44-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:12:138-288
 45            android:exported="true"
-45-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:12:48-71
+45-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:12:48-71
 46            android:hardwareAccelerated="true"
-46-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:12:289-323
+46-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:12:289-323
 47            android:launchMode="singleTop"
-47-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:12:72-102
+47-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:12:72-102
 48            android:theme="@style/LaunchTheme"
-48-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:12:103-137
+48-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:12:103-137
 49            android:windowSoftInputMode="adjustResize" >
-49-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:12:324-366
+49-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:12:324-366
 50
 51            <!--
 52                 Specifies an Android theme to apply to this Activity as soon as
@@ -93,21 +93,21 @@
 55                 to determine the Window background behind the Flutter UI.
 56            -->
 57            <meta-data
-57-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:17:13-120
+57-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:17:13-120
 58                android:name="io.flutter.embedding.android.NormalTheme"
-58-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:17:24-79
+58-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:17:24-79
 59                android:resource="@style/NormalTheme" />
-59-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:17:80-117
+59-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:17:80-117
 60
 61            <intent-filter>
-61-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:18:13-21:29
+61-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:18:13-21:29
 62                <action android:name="android.intent.action.MAIN" />
-62-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:19:17-68
-62-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:19:25-66
+62-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:19:17-68
+62-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:19:25-66
 63
 64                <category android:name="android.intent.category.LAUNCHER" />
-64-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:20:17-76
-64-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:20:27-74
+64-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:20:17-76
+64-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:20:27-74
 65            </intent-filter>
 66        </activity>
 67        <!--
@@ -115,32 +115,32 @@
 69             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 70        -->
 71        <meta-data
-71-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:25:9-72
+71-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:25:9-72
 72            android:name="flutterEmbedding"
-72-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:25:20-51
+72-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:25:20-51
 73            android:value="2" />
-73-->/Users/chineduuche/Documents/Projects/tests/deliveryplus/android/app/src/main/AndroidManifest.xml:25:52-69
+73-->/Users/chineduuche/Documents/Projects/tests/delivery_plus/android/app/src/main/AndroidManifest.xml:25:52-69
 74
 75        <service
-75-->[:firebase_auth] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+75-->[:firebase_auth] /Users/chineduuche/Documents/Projects/tests/delivery_plus/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
 76            android:name="com.google.firebase.components.ComponentDiscoveryService"
-76-->[:firebase_auth] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+76-->[:firebase_auth] /Users/chineduuche/Documents/Projects/tests/delivery_plus/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
 77            android:directBootAware="true"
 77-->[com.google.firebase:firebase-common:20.2.0] /Users/chineduuche/.gradle/caches/transforms-3/ef8423601b72496d12bca9ac87595f67/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
 78            android:exported="false" >
 78-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:66:13-37
 79            <meta-data
-79-->[:firebase_auth] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+79-->[:firebase_auth] /Users/chineduuche/Documents/Projects/tests/delivery_plus/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
 80                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-80-->[:firebase_auth] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+80-->[:firebase_auth] /Users/chineduuche/Documents/Projects/tests/delivery_plus/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
 81                android:value="com.google.firebase.components.ComponentRegistrar" />
-81-->[:firebase_auth] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+81-->[:firebase_auth] /Users/chineduuche/Documents/Projects/tests/delivery_plus/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 82            <meta-data
-82-->[:firebase_core] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+82-->[:firebase_core] /Users/chineduuche/Documents/Projects/tests/delivery_plus/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
 83                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-83-->[:firebase_core] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+83-->[:firebase_core] /Users/chineduuche/Documents/Projects/tests/delivery_plus/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
 84                android:value="com.google.firebase.components.ComponentRegistrar" />
-84-->[:firebase_core] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+84-->[:firebase_core] /Users/chineduuche/Documents/Projects/tests/delivery_plus/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 85            <meta-data
 85-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
 86                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
@@ -149,15 +149,15 @@
 87-->[com.google.firebase:firebase-auth:21.1.0] /Users/chineduuche/.gradle/caches/transforms-3/db77909e02725043151ff28d3fe9f329/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
 88        </service>
 89        <service
-89-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:56
+89-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/delivery_plus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:56
 90            android:name="com.baseflow.geolocator.GeolocatorLocationService"
-90-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-77
+90-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/delivery_plus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-77
 91            android:enabled="true"
-91-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-35
+91-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/delivery_plus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-35
 92            android:exported="false"
-92-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+92-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/delivery_plus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
 93            android:foregroundServiceType="location" />
-93-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/deliveryplus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-53
+93-->[:geolocator_android] /Users/chineduuche/Documents/Projects/tests/delivery_plus/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-53
 94
 95        <uses-library
 95-->[androidx.window:window:1.0.0-beta04] /Users/chineduuche/.gradle/caches/transforms-3/e1f53c96aa78f7b42431169b7cd59214/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
